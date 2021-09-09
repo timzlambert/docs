@@ -79,7 +79,7 @@ This guide covers how to use the Linode API to:
 
 | **Required Parameters** | **Description** |
 |-------|-------|
-| `region` | The data center region where your cluster is deployed. Currently, `us-central` is the only available region for LKE clusters. |
+| `region` | The data center region where your cluster is deployed. Currently, `us-southeast` is the only region LKE clusters are not available. |
 | `label` | A human readable name to identify your cluster. This must be unique. If no label is provided, one is assigned automatically. Labels must start with an alpha [a-z][A-Z] character, must only consist of alphanumeric characters and dashes, and must not contain two dashes in a row.
 | `node_pools` | The collections of Linodes that serve as the worker nodes in your LKE cluster. |
 | `k8s_version` | The desired version of Kubernetes for this cluster. |
